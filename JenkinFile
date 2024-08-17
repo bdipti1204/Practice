@@ -1,0 +1,17 @@
+stages {
+        stage('Build') { 
+            steps { 
+                echo "this is Build Step"
+            }
+        }
+        stage('Test'){
+            steps {
+               echo "this is Test Step"
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo "this is Deplou Step"
+            }
+        }
+    }
